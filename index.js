@@ -13,11 +13,7 @@ class Formatter {
 
     return str.split(' ').map((word, index) => {
       // debugger
-      if (index === 0 || !exceptions.includes(word)) {
-        return this.capitalize(word)
-      } else {
-        return word
-      }
+      return index === 0 || !exceptions.includes(word) ? this.capitalize(word) : word
     }).join(' ')
   }
 }
