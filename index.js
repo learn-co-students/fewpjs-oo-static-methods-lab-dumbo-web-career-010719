@@ -27,3 +27,15 @@ class Formatter {
     return results.join(" ")
   }
 }
+
+// static titleize(string) {
+//   const arr = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
+//   const strArr = string.split(' ')
+//   strArr.forEach(function(ele, index, strArr) {
+//     if (arr.includes(ele) === false || index === 0) {
+//       let newEle = ele.charAt(0).toUpperCase() + ele.slice(1)
+//       strArr[index] = newEle
+//     }
+//   })
+//   return strArr.join(' ')
+// }
